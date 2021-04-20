@@ -17,6 +17,7 @@ puts "Creating States, Harvests, and Produce"
 ny = State.create!(name: "New York")
 fl = State.create!(name: "Florida")
 ore = State.create!(name: "Oregon")
+ca = State.create!(name: "California")
 
 apple = Produce.create!(name: "Apple", description: "Juicy and crisp", image: "https://www.applesfromny.com/wp-content/uploads/2020/05/Jonagold_NYAS-Apples2.png")
 peach = Produce.create!(name: "Peach", description: "Soft and Juicy", image: "https://freepngimg.com/thumb/peach/5-2-peach-png-image.png")
