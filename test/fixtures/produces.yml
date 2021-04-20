@@ -4,12 +4,8 @@ one:
   name: MyString
   description: MyString
   image: MyString
-  state: one
-  months: MyText
 
 two:
   name: MyString
   description: MyString
   image: MyString
-  state: two
-  months: MyText

@@ -4,8 +4,6 @@ class CreateProduces < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :description
       t.string :image
-      t.belongs_to :state, null: false, foreign_key: true
-      t.text :months
 
       t.timestamps
     end
