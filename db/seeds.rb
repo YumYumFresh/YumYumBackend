@@ -13,6 +13,8 @@ puts "Destroying all"
 puts "\n"
 puts "Creating States, Harvests, and Produce"
 
+
+#############   All of the 50 states ############
 al = State.create!(name: "Alabama")
 ak = State.create!(name: "Alaska")
 az = State.create!(name: "Arizona")
@@ -64,11 +66,8 @@ wi = State.create!(name: "Wisconsin")
 wy = State.create!(name: "Wyoming")
 
 
-
-
-
-
-apple = Produce.create!(name: "Apple", description: "Juicy and crisp", image: "https://www.applesfromny.com/wp-content/uploads/2020/05/Jonagold_NYAS-Apples2.png")
+apple = Produce.create!(name: "Apple", description: "Juicy and crisp", image: "https://images.unsplash.com/photo-1576179635662-9d1983e97e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80")
+orange = Produce.create!(name: "Orange", description: "Zesty and juicy", image: "https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
 peach = Produce.create!(name: "Peach", description: "Soft and Juicy", image: "https://freepngimg.com/thumb/peach/5-2-peach-png-image.png")
 
 ny_apple = Harvest.create!(state: ny, produce: apple, months: ["August", "September", "October"] )
