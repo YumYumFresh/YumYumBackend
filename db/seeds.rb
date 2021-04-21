@@ -68,7 +68,18 @@ wy = State.create!(name: "Wyoming")
 
 apple = Produce.create!(name: "Apple", description: "Juicy and crisp", image: "https://images.unsplash.com/photo-1576179635662-9d1983e97e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80")
 orange = Produce.create!(name: "Orange", description: "Zesty and juicy", image: "https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
-peach = Produce.create!(name: "Peach", description: "Soft and Juicy", image: "https://freepngimg.com/thumb/peach/5-2-peach-png-image.png")
+peach = Produce.create!(name: "Peach", description: "Soft and Juicy", image: "https://images.unsplash.com/photo-1565769583756-fe3ffffcae49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80")
+blueberry = Produce.create!(name: "Blueberry", description: "blue", image: "https://images.unsplash.com/photo-1566400628146-ae8f27849e90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
+spinach = Produce.create!(name: "Spinach", description: "green and healthy", image: "https://images.unsplash.com/photo-1565489348099-73ff648c76ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
+tomato = Produce.create!(name: "Tomato", description: "red and delicious", image: "https://images.unsplash.com/photo-1536500576323-b9a2af3a6c61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
+ramps = Produce.create!(name: "Ramps", description: "happy combination of garlic and onion", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG98fAXh08vWrd28ox2uLhrkzqzgYl4kuLH9zxWL5Q64B5uCyO0HlbgXacX-KsgW4AtJI&usqp=CAU")
+broccoli = Produce.create!(name: "Broccoli", description: "little trees", image: "https://images.unsplash.com/photo-1617122823297-5d390e6074b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80")
+garlic_scapes = Produce.create!(name: "Garlic Scapes", description: "short season", image: "https://wpr-public.s3.amazonaws.com/wprorg/styles/facebook/s3/s3fs-public/wpr/segments/2016/05/3705195208_4973e8cbff_o.jpg?itok=-UORCriW")
+butternut_squash = Produce.create!(name: "Butternut Squash", description: "makes great soup", image: "https://davidsgiantvegetables.com/wp-content/uploads/2020/10/Butternut-Squash-Growing-e1604159264840.jpg")
+watermelon = Produce.create!(name: "Watermelon", description: "huge and juicy", image: "https://edge.bonnieplants.com/www/tiny/uploads/20200810204146/BONNIE_watermelon_iStock-181067852-1800px.jpg")
+morels = Produce.create!(name: "Morels", description: "fungi", image: "https://y6auj24xr4y3qq95tz7io6uu-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/32999977933_4b2dd846a5_o-1400x788.jpg")
+
+
 
 ny_apple = Harvest.create!(state: ny, produce: apple, months: ["August", "September", "October"] )
 or_apple = Harvest.create!(state: ore, produce: apple, months: [ "September", "October"])
