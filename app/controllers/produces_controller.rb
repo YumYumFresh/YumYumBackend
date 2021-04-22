@@ -8,4 +8,6 @@ class ProducesController < ApplicationController
         produce = Produce.find(params[:id])
         render json: produce
     end
+
+    
 end
