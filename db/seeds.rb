@@ -72,6 +72,7 @@ peach = Produce.create!(name: "Peach", description: "Soft and Juicy", image: "ht
 blueberry = Produce.create!(name: "Blueberry", description: "blue", image: "https://images.unsplash.com/photo-1566400628146-ae8f27849e90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
 spinach = Produce.create!(name: "Spinach", description: "green and healthy", image: "https://images.unsplash.com/photo-1565489348099-73ff648c76ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
 tomato = Produce.create!(name: "Tomato", description: "red and delicious", image: "https://images.unsplash.com/photo-1536500576323-b9a2af3a6c61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
+
 ramps = Produce.create!(name: "Ramps", description: "happy combination of garlic and onion", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG98fAXh08vWrd28ox2uLhrkzqzgYl4kuLH9zxWL5Q64B5uCyO0HlbgXacX-KsgW4AtJI&usqp=CAU")
 broccoli = Produce.create!(name: "Broccoli", description: "little trees", image: "https://images.unsplash.com/photo-1617122823297-5d390e6074b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80")
 garlic_scapes = Produce.create!(name: "Garlic Scapes", description: "short season", image: "https://wpr-public.s3.amazonaws.com/wprorg/styles/facebook/s3/s3fs-public/wpr/segments/2016/05/3705195208_4973e8cbff_o.jpg?itok=-UORCriW")
@@ -80,9 +81,54 @@ watermelon = Produce.create!(name: "Watermelon", description: "huge and juicy", 
 morels = Produce.create!(name: "Morels", description: "fungi", image: "https://y6auj24xr4y3qq95tz7io6uu-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/32999977933_4b2dd846a5_o-1400x788.jpg")
 
 
-
+### Apple's Harvest Cards
 ny_apple = Harvest.create!(state: ny, produce: apple, months: ["August", "September", "October"] )
 or_apple = Harvest.create!(state: ore, produce: apple, months: [ "September", "October"])
-fl_peaches = Harvest.create!(state: fl, produce: peach, months: ["October", "November"])   
-ny_ramp = Harvest.create!(state: ny, produce: ramps, months: ["April", "May", "June"] )
+mi_apple = Harvest.create!(state: mi, produce: apple, months: ["August", "September". "October"])
+pa_apple = Harvest.create!(state: pa, produce: apple, months: ["July", "August", "September", "October"])
+ca_apple = Harvest.create!(state: ca, produce: apple, months: ["July", "August", "September", "October", "November"])
+nc_apple = Harvest.create!(state: nc, produce: apple, months: ["August", "September", "October", "November"])
+oh_apple = Harvest.create!(state: oh, produce: apple, months: ["July", "August", "September", "October", "November"])
+id_apple = Harvest.create!(state: ida, produce: apple, months: ["July", "August", "September"])
+
+
+
+##Orange's Harvest
+ca_orange = Harvest.create!(state: ca, produce: orange, months: ["January", "February", "March", "April", "May". "June", "December"])
+fl_orange = Harvest.create!(state: fl, produce: orange, months: ["January". "September". "October", "November"])
+tx_orange = Harvest.create!(state: tx, produce: orange, months: ["January", "February", "March", "April", "May". "June", "July", "August", "September", "October", "November", "December"])
+az_orange = Harvest.create!(state: az, produce: orange, months: ["January", "February", "March", "April", "November", "December"])
 ny_Squash = Harvest.create!(state: ny, produce: butternut_squash, months: ["October", "November", "December"] )
+
+
+fl_peaches = Harvest.create!(state: fl, produce: peach, months: ["October", "November"])   
+
+## ramps
+me_ramp = Harvest.create!(state: me, produce: ramp, months: ["May"])
+nh_ramp = Harvest.create!(state: nh, produce: ramp, months: ["May"])
+vt_ramp = Harvest.create!(state: vt, produce: ramp, months: ["May"])
+ny_ramp = Harvest.create!(state: ny, produce: ramp, months: ["May"])
+oh_ramp = Harvest.create!(state: oh, produce: ramp, months: ["May"])
+ky_ramp = Harvest.create!(state: ky, produce: ramp, months: ["May"])
+pa_ramp = Harvest.create!(state: pa, produce: ramp, months: ["May"])
+va_ramp = Harvest.create!(state: va, produce: ramp, months: ["May"])
+md_ramp = Harvest.create!(state: md, produce: ramp, months: ["May"])
+ma_ramp = Harvest.create!(state: ma, produce: ramp, months: ["May"])
+mn_ramp = Harvest.create!(state: mn, produce: ramp, months: ["May"])
+mi_ramp = Harvest.create!(state: mi, produce: ramp, months: ["May"])
+wi_ramp = Harvest.create!(state: wi, produce: ramp, months: ["May"])
+ri_ramp = Harvest.create!(state: ri, produce: ramp, months: ["May"])
+il_ramp = Harvest.create!(state: il, produce: ramp, months: ["May"])
+mo_ramp = Harvest.create!(state: mo, produce: ramp, months: ["May"])
+ga_ramp = Harvest.create!(state: ga, produce: ramp, months: ["May"])
+
+
+## brocoli
+
+## garlic_scapes
+
+## butternut_squash
+
+## watermelon
+
+## morels
