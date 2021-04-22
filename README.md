@@ -23,3 +23,7 @@ Things you may want to cover:
 
 * ...
 # YumYumBackend
+
+This is a Custom API to store All sorts of produce, fungi that exist(Limited to what we've entered so far). The end points allow for users to search for produce by state and to find out when they are in season.
+
+You can also check all the produce that we've entered
