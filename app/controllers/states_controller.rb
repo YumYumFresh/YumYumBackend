@@ -11,5 +11,10 @@ class StatesController < ApplicationController
         render json: state
     end
 
+    def states_produce(month)
+        produces = State.find(params[:id]).by_months(month)
+        render json: produces
+    end
+
     
 end
