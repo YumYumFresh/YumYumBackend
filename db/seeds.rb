@@ -83,4 +83,6 @@ morels = Produce.create!(name: "Morels", description: "fungi", image: "https://y
 
 ny_apple = Harvest.create!(state: ny, produce: apple, months: ["August", "September", "October"] )
 or_apple = Harvest.create!(state: ore, produce: apple, months: [ "September", "October"])
-fl_peaches = Harvest.create!(state: fl, produce: peach, months: ["October", "November"])
+fl_peaches = Harvest.create!(state: fl, produce: peach, months: ["October", "November"])   
+ny_ramp = Harvest.create!(state: ny, produce: ramps, months: ["April", "May", "June"] )
+ny_Squash = Harvest.create!(state: ny, produce: butternut_squash, months: ["October", "November", "December"] )
