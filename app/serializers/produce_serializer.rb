@@ -1,8 +1,8 @@
 class ProduceSerializer < ActiveModel::Serializer
-    attributes :name, :description, :image, :id
-    has_many :harvests
-    has_many :states, through: :harvests
-
-
-    # :harvests, include :months
+    attributes :name, :description, :image, :id, :only_associated_harvest
+   
+    def only_associated_harvest
+        harvest_to_state = Harvest.where(lookup_id: @instance_options[:lookup_id].to_i, produce_id: object.id)
+        return harvest_to_state
+    end
 end
