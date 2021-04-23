@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_20_210702) do
+ActiveRecord::Schema.define(version: 2021_04_23_153549) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2021_04_20_210702) do
     t.text "months"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "lookup_id"
     t.index ["produce_id"], name: "index_harvests_on_produce_id"
     t.index ["state_id"], name: "index_harvests_on_state_id"
   end
@@ -37,6 +38,7 @@ ActiveRecord::Schema.define(version: 2021_04_20_210702) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "lookup_id"
   end
 
   add_foreign_key "harvests", "produces"
