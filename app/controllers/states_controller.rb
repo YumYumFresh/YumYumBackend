@@ -14,14 +14,15 @@ class StatesController < ApplicationController
 
     def states_produce
         produces = State.find_by(:name => params[:name]).by_months(params[:month])
-        render json: produces
+        produces_with_months = produces.each{|produce| produce.only_associated_harest(params[lookup_id])} #go through produces,("lookup_id") 
+        render json: produces_with_months
     end
 
 
     private
     
     def state_params
-        params.permit(:name, :month)
+        params.permit(:name, :month, :lookup_id)
     end
 
 end
