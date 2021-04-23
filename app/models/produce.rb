@@ -3,8 +3,9 @@ class Produce < ApplicationRecord
     has_many :states, through: :harvests
     
 
-    def only_associated_harest(lookup_id)
-        self.harvests.select{ |harvest| harvest.lookup_id == lookup_id }
-    end
+    
+    
+
+    #serializer select only this specific before you send it
 
 end

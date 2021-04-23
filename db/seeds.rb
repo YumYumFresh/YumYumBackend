@@ -99,7 +99,6 @@ ca_orange = Harvest.create!(state: ca, produce: orange, months: ["January", "Feb
 fl_orange = Harvest.create!(state: fl, produce: orange, months: ["January", "September", "October", "November"], lookup_id: 9)
 tx_orange = Harvest.create!(state: tx, produce: orange, months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], lookup_id: 43)
 az_orange = Harvest.create!(state: az, produce: orange, months: ["January", "February", "March", "April", "November", "December"], lookup_id: 4)
-ny_Squash = Harvest.create!(state: ny, produce: butternut_squash, months: ["October", "November", "December"], lookup_id: 32)
 
 
 fl_peaches = Harvest.create!(state: fl, produce: peach, months: ["October", "November"], lookup_id: 9)   

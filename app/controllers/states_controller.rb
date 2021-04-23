@@ -14,8 +14,8 @@ class StatesController < ApplicationController
 
     def states_produce
         produces = State.find_by(:name => params[:name]).by_months(params[:month])
-        produces_with_months = produces.each{|produce| produce.only_associated_harest(params[lookup_id])} #go through produces,("lookup_id") 
-        render json: produces_with_months
+        render json: produces, lookup_id: params[:lookup_id]
+        #produces, serializer: ProduceSerializer, only_associated_harvest: params[:lookup_id], status: :ok
     end
 
 
