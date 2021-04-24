@@ -67,20 +67,24 @@ wi = State.create!(name: "Wisconsin", lookup_id: 49)
 wy = State.create!(name: "Wyoming", lookup_id: 50)
 
 
-apple = Produce.create!(name: "Apple", description: "Juicy and crisp", image: "https://images.unsplash.com/photo-1576179635662-9d1983e97e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80")
-orange = Produce.create!(name: "Orange", description: "Zesty and juicy", image: "https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
-peach = Produce.create!(name: "Peach", description: "Soft and Juicy", image: "https://images.unsplash.com/photo-1565769583756-fe3ffffcae49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80")
-blueberry = Produce.create!(name: "Blueberry", description: "blue", image: "https://images.unsplash.com/photo-1566400628146-ae8f27849e90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
-spinach = Produce.create!(name: "Spinach", description: "green and healthy", image: "https://images.unsplash.com/photo-1565489348099-73ff648c76ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
-tomato = Produce.create!(name: "Tomato", description: "red and delicious", image: "https://images.unsplash.com/photo-1536500576323-b9a2af3a6c61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
 
-ramps = Produce.create!(name: "Ramps", description: "happy combination of garlic and onion", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG98fAXh08vWrd28ox2uLhrkzqzgYl4kuLH9zxWL5Q64B5uCyO0HlbgXacX-KsgW4AtJI&usqp=CAU")
-broccoli = Produce.create!(name: "Broccoli", description: "little trees", image: "https://images.unsplash.com/photo-1617122823297-5d390e6074b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80")
-garlic_scapes = Produce.create!(name: "Garlic Scapes", description: "short season", image: "https://wpr-public.s3.amazonaws.com/wprorg/styles/facebook/s3/s3fs-public/wpr/segments/2016/05/3705195208_4973e8cbff_o.jpg?itok=-UORCriW")
-butternut_squash = Produce.create!(name: "Butternut Squash", description: "makes great soup", image: "https://davidsgiantvegetables.com/wp-content/uploads/2020/10/Butternut-Squash-Growing-e1604159264840.jpg")
-watermelon = Produce.create!(name: "Watermelon", description: "huge and juicy", image: "https://edge.bonnieplants.com/www/tiny/uploads/20200810204146/BONNIE_watermelon_iStock-181067852-1800px.jpg")
-morels = Produce.create!(name: "Morels", description: "fungi", image: "https://y6auj24xr4y3qq95tz7io6uu-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/32999977933_4b2dd846a5_o-1400x788.jpg")
+############# Produces ############
+apple = Produce.create!(name: "Apple", description: "Too many varieties to count but apples can be a delicious addition to a baking dish, fermented for cider or munched on as a healthy delicious hand snack.  If you’re planning on storing the apples, they should be picked when mature, yet hard, with a mature skin color but a hard flesh. Gently remove the apples from the tree, keeping the stem intact. Sort through the apple harvest and remove any apples that have insect erosion or signs of disease.  Read more at Gardening Know How: Tips For Harvesting Apples And Post Harvest Apple Storing https://www.gardeningknowhow.com/edible/fruits/apples/harvesting-and-storing-apples.htm", image: "https://images.unsplash.com/photo-1576179635662-9d1983e97e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80")
+orange = Produce.create!(name: "Orange", description: "Generally, the tastiest orange—whatever the variety—will be firm, full-colored, smooth and thin-skinned. As you would with most fruits and veggies, steer clear or those that are too soft, show even the smallest signs of mold, or feel as though they have bruises.", image: "https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
+peach = Produce.create!(name: "Peach", description: "Some things to consider when looking for the right peach. Look for firm peaches with a pleasant aroma. Pick full-colored peaches. Bigger can be better when it comes to peaches!", image: "https://images.unsplash.com/photo-1565769583756-fe3ffffcae49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80")
+blueberry = Produce.create!(name: "Blueberry", description: "When you buy fresh blueberries, look for berries that are firm, dry, plump and smooth-skinned, with a silvery surface bloom and no leaves or stems. Size isn't an indicator of maturity but color is – berries should be deep purple-blue to blue-black.", image: "https://images.unsplash.com/photo-1566400628146-ae8f27849e90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
+spinach = Produce.create!(name: "Spinach", description: "Look for fresh spinach leaves that have a dark green color, crisp texture and fresh aroma. Avoid bunches or bags with wilted, yellow-spotted or slimy leaves and bunches with a sour or musty odor. Spinach stems should be fairly thin. Thick, coarse stems indicate overgrown leaves that will be tough and bitter tasting.", image: "https://images.unsplash.com/photo-1565489348099-73ff648c76ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
+tomato = Produce.create!(name: "Tomato", description: "Avoid tomatoes with blemishes or dark spots. The tomato should have a good weight for its size, feeling heavy. The tomato should also be firm, yet soft enough to give into any real pressure. Finally the tomato should be very aromatic when you smell it near where the stem was attached.", image: "https://images.unsplash.com/photo-1536500576323-b9a2af3a6c61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
 
+ramps = Produce.create!(name: "Ramps", description: "Ramps lie dormant from late October to late March. Just as the snow begins to melt, the plant's first few leaves emerge, and by May its leaves have fully formed and fanned out, at which point the plant is usually harvested.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG98fAXh08vWrd28ox2uLhrkzqzgYl4kuLH9zxWL5Q64B5uCyO0HlbgXacX-KsgW4AtJI&usqp=CAU")
+broccoli = Produce.create!(name: "Broccoli", description: "Choose broccoli heads with tight, green florets and firm stalks. The broccoli should feel heavy for its size. The cut ends of the stalks should be fresh and moist looking. Avoid broccoli with dried out or browning stem ends or yellowing florets.", image: "https://images.unsplash.com/photo-1617122823297-5d390e6074b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80")
+garlic_scapes = Produce.create!(name: "Garlic Scapes", description: "Win, win! To cut your scape, wait until the center stalk completely forms and grows above the rest of the plant. As it grows up it will begin to curl or spiral upward. At that point, cut the stalk as far down as you can without cutting any leaves off.", image: "https://wpr-public.s3.amazonaws.com/wprorg/styles/facebook/s3/s3fs-public/wpr/segments/2016/05/3705195208_4973e8cbff_o.jpg?itok=-UORCriW")
+butternut_squash = Produce.create!(name: "Butternut Squash", description: "Look for butternut squash with a solid beige color, without any deep cuts or bruises. A little surface scratching is normal. Choose squash that feels heavy for its size. Avoid squash with brown patches or punctures, which can introduce bacteria and mold.", image: "https://davidsgiantvegetables.com/wp-content/uploads/2020/10/Butternut-Squash-Growing-e1604159264840.jpg")
+watermelon = Produce.create!(name: "Watermelon", description: "You should pick a melon that has a strong, consistent stripe pattern. The green stripes should be a deep, dark green, while the pale stripes should be a creamy, light yellow. Additionally, you may want to choose a dull looking watermelon. If the melon is very shiny, it is likely underripe.", image: "https://edge.bonnieplants.com/www/tiny/uploads/20200810204146/BONNIE_watermelon_iStock-181067852-1800px.jpg")
+morels = Produce.create!(name: "Morels", description: "You will typically find the morel begins to darken as it ages. But that is a good indication that the morale is towards the end of the lifecycle and is ready to be picked. If foraging make sure to cut the stem instead of plucking.", image: "https://y6auj24xr4y3qq95tz7io6uu-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/32999977933_4b2dd846a5_o-1400x788.jpg")
+
+
+############# Harvests ############
 
 ### Apple's Harvest Cards
 ny_apple = Harvest.create!(state: ny, produce: apple, months: ["August", "September", "October"], lookup_id: 32)
@@ -92,19 +96,34 @@ nc_apple = Harvest.create!(state: nc, produce: apple, months: ["August", "Septem
 oh_apple = Harvest.create!(state: oh, produce: apple, months: ["July", "August", "September", "October", "November"], lookup_id: 35)
 ida_apple = Harvest.create!(state: ida, produce: apple, months: ["July", "August", "September"], lookup_id: 12)
 
-
-
 ##Orange's Harvest
 ca_orange = Harvest.create!(state: ca, produce: orange, months: ["January", "February", "March", "April", "May", "June", "December"], lookup_id: 5)
 fl_orange = Harvest.create!(state: fl, produce: orange, months: ["January", "September", "October", "November"], lookup_id: 9)
 tx_orange = Harvest.create!(state: tx, produce: orange, months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], lookup_id: 43)
 az_orange = Harvest.create!(state: az, produce: orange, months: ["January", "February", "March", "April", "November", "December"], lookup_id: 4)
 
-#Peaches Harvest
+##Peaches Harvest
 fl_peaches = Harvest.create!(state: fl, produce: peach, months: ["October", "November"], lookup_id: 9)   
-ga_peaches = Harvest.create!(state: ga, produce: peach, months: ["October", "November"], lookup_id: 10)   
+ga_peaches = Harvest.create!(state: ga, produce: peach, months: ["June", "July", "August"], lookup_id: 10)   
+ca_peaches = Harvest.create!(state: ca, produce: peach, months: ["June", "July", "August"], lookup_id: 5)   
+sc_peaches = Harvest.create!(state: sc, produce: peach, months: ["June", "July", "August"], lookup_id: 40)   
+nj_peaches = Harvest.create!(state: nj, produce: peach, months: ["July", "August"], lookup_id: 30)   
 
-## ramps
+##Blueberries Harvest
+mi_blueberry = Harvest.create!(state: mi, produce: blueberry, months: ["July", "August"], lookup_id: 22) 
+ny_blueberry = Harvest.create!(state: ny, produce: blueberry, months: ["July", "August"], lookup_id: 32)
+nj_blueberry = Harvest.create!(state: nj, produce: blueberry, months: ["July", "August"], lookup_id: 30)
+nc_blueberry = Harvest.create!(state: nc, produce: blueberry, months: ["June", "July"], lookup_id: 33)
+ga_blueberry = Harvest.create!(state: ga, produce: blueberry, months: ["April", "May", "June", "July"], lookup_id: 10)
+fl_blueberry = Harvest.create!(state: fl, produce: blueberry, months: ["April", "May"], lookup_id: 9)
+ms_blueberry = Harvest.create!(state: ms, produce: blueberry, months: ["June", "July"], lookup_id: 24)
+ind_blueberry = Harvest.create!(state: ind, produce: blueberry, months: ["July", "August"], lookup_id: 14)
+ca_blueberry = Harvest.create!(state: ca, produce: blueberry, months: ["May", "June", "July"], lookup_id: 5)
+ore_blueberry = Harvest.create!(state: ore, produce: blueberry, months: ["June", "July", "August", "September", "October"], lookup_id: 37)
+wa_blueberry = Harvest.create!(state: wa, produce: blueberry, months: ["June", "July", "August", "September"], lookup_id: 47)
+me_blueberry = Harvest.create!(state: me, produce: blueberry, months: ["August"], lookup_id: 19)
+
+##Ramps
 me_ramp = Harvest.create!(state: me, produce: ramps, months: ["May"], lookup_id: 19)
 nh_ramp = Harvest.create!(state: nh, produce: ramps, months: ["May"], lookup_id: 29)
 vt_ramp = Harvest.create!(state: vt, produce: ramps, months: ["May"], lookup_id: 45)
