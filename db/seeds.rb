@@ -5,9 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Harvest.destroy_all
 State.destroy_all
 Produce.destroy_all
-Harvest.destroy_all
 
 puts "Destroying all"
 puts "\n"
