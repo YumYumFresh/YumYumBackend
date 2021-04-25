@@ -85,10 +85,10 @@ garlic_scapes = Produce.create!(name: "Garlic Scapes", description: "Win, win! T
 butternut_squash = Produce.create!(name: "Butternut Squash", description: "Look for butternut squash with a solid beige color, without any deep cuts or bruises. A little surface scratching is normal. Choose squash that feels heavy for its size. Avoid squash with brown patches or punctures, which can introduce bacteria and mold.", image: "https://davidsgiantvegetables.com/wp-content/uploads/2020/10/Butternut-Squash-Growing-e1604159264840.jpg")
 watermelon = Produce.create!(name: "Watermelon", description: "You should pick a melon that has a strong, consistent stripe pattern. The green stripes should be a deep, dark green, while the pale stripes should be a creamy, light yellow. Additionally, you may want to choose a dull looking watermelon. If the melon is very shiny, it is likely underripe.", image: "https://edge.bonnieplants.com/www/tiny/uploads/20200810204146/BONNIE_watermelon_iStock-181067852-1800px.jpg")
 morels = Produce.create!(name: "Morels", description: "You will typically find the morel begins to darken as it ages. But that is a good indication that the morale is towards the end of the lifecycle and is ready to be picked. If foraging make sure to cut the stem instead of plucking.", image: "https://y6auj24xr4y3qq95tz7io6uu-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/32999977933_4b2dd846a5_o-1400x788.jpg")
-corn = Produce.create!(name: "corn", description: "Look for bright red berries. Strawberries don't continue to ripen after they are picked, so what you see is what you get. Look for fresh green leaves.  Look for plump berries. Size doesn't matter.", image: "https://images.unsplash.com/photo-1543528176-61b239494933?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80")
-eggplant = Produce.create!(name: "eggplant", description: "Look for bright red berries. Strawberries don't continue to ripen after they are picked, so what you see is what you get. Look for fresh green leaves.  Look for plump berries. Size doesn't matter.", image: "https://images.unsplash.com/photo-1543528176-61b239494933?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80")
-radish = Produce.create!(name: "radish", description: "Look for bright red berries. Strawberries don't continue to ripen after they are picked, so what you see is what you get. Look for fresh green leaves.  Look for plump berries. Size doesn't matter.", image: "https://images.unsplash.com/photo-1543528176-61b239494933?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80")
-cucumber = Produce.create!(name: "cucumber", description: "Look for bright red berries. Strawberries don't continue to ripen after they are picked, so what you see is what you get. Look for fresh green leaves.  Look for plump berries. Size doesn't matter.", image: "https://images.unsplash.com/photo-1543528176-61b239494933?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80")
+corn = Produce.create!(name: "Corn", description: "You want the corn husk to be bright green, wrapped tightly against the corn and slightly damp. These are the freshest cobs! Don't choose any husks that are starting to yellow or feel dry. You'll want to check the husk for small brown holes, which mean insects and should be avoided.", image: "https://images.unsplash.com/photo-1582075482299-4123a7b6a3b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=718&q=80")
+eggplant = Produce.create!(name: "Eggplant", description: "Look for eggplants with smooth, shiny skin that are uniform in color and heavy for their size. To test for ripeness, lightly press a finger against the skin. If it leaves an imprint, the eggplant is ripe. Choose smaller eggplants as they tend to be sweeter, less bitter, have thinner skin and less seeds.", image: "https://images.unsplash.com/photo-1593677457477-79596c98cfd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+radish = Produce.create!(name: "Radish", description: "You'll usually see the top portion of the radish poking up through the soil. When it appears to be almost an inch across, it is ready to pick. Radishes can be harvested by pulling or by gently loosening the surrounding soil. Don't let mature radishes sit in the ground or they will get either woody or spongy.", image: "https://images.unsplash.com/photo-1576072115035-5fe30e447e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80")
+cucumber = Produce.create!(name: "Cucumber", description: "Look for firm cucumbers, without blemishes or soft spots, which can indicate they have started to rot. They should be dark green without any yellow spots, which develop as the cucumber is getting overly ripe. At that point, it will often produce off-flavors and odors.", image: "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80")
 
 
 ############# Harvests ############
@@ -212,16 +212,19 @@ wa_garlic_scape = Harvest.create!(state: wa, produce: garlic_scapes, months: ["M
 wv_garlic_scape = Harvest.create!(state: wv, produce: garlic_scapes, months: ["May", "June", "July"], lookup_id: 48)
 wi_garlic_scape = Harvest.create!(state: wi, produce: garlic_scapes, months: ["May", "June", "July"], lookup_id: 49)
 wy_garlic_scape = Harvest.create!(state: wy, produce: garlic_scapes, months: ["May", "June", "July"], lookup_id: 50)
+
 ## butternut_squash
 ca_butternut_squash = Harvest.create!(state: ca, produce: butternut_squash, months: ["January", "February", "March", "April","May", "June", "July", "August", "September", "October", "November", "December"], lookup_id: 5)
 ny_butternut_squash = Harvest.create!(state: ny, produce: butternut_squash, months: ["July", "August", "September", "October"], lookup_id: 32)
 mi_butternut_squash = Harvest.create!(state: mi, produce: butternut_squash, months: ["September", "October", "November"], lookup_id: 22)
+
 ## watermelon
 ar_watermelon = Harvest.create!(state: ar, produce: watermelon, months: ["August", "September", "October"], lookup_id: 3)
 la_watermelon = Harvest.create!(state: la, produce: watermelon, months: ["August", "September", "October"], lookup_id: 18)
 fl_watermelon = Harvest.create!(state: fl, produce: watermelon, months: ["June", "July", "August", "September", "October"], lookup_id: 9)
 tx_watermelon = Harvest.create!(state: tx, produce: watermelon, months: ["May", "June", "July", "August", "September"], lookup_id: 43)
 ut_watermelon = Harvest.create!(state: ut, produce: watermelon, months: ["September", "October"], lookup_id: 44)
+
 ## morels
 al_morel = Harvest.create!(state: al, produce: morels, months: ["March"], lookup_id: 1)
 ar_morel = Harvest.create!(state: ar, produce: morels, months: ["March"], lookup_id: 3)
@@ -248,9 +251,37 @@ ri_morel = Harvest.create!(state: ri, produce: morels, months: ["March", "April"
 ct_morel = Harvest.create!(state: ct, produce: morels, months: ["March", "April", "May"], lookup_id: 7)
 me_morel = Harvest.create!(state: me, produce: morels, months: ["March", "April", "May"], lookup_id: 19)
 
+<<<<<<< HEAD
 #spinach
 ca_spinach = Harvest.create!(state: ca, produce: spinach, months: ["February", "March", "April"], lookup_id: ca.lookup_id)
 ar_spinach = Harvest.create!(state: ar, produce: spinach, months: ["January", "February", "March", "April", "December"], lookup_id: ar.lookup_id)
 nj_spinach = Harvest.create!(state: nj, produce: spinach, months: ["April", "May", "June"], lookup_id: nj.lookup_id)
 tx_spinach = Harvest.create!(state: tx, produce: spinach, months: ["January", "February", "March", "April", "September", "October", "November", "December"], lookup_id: tx.lookup_id)
 
+=======
+## corn harvests
+ia = Harvest.create!(state: ia, produce: corn, months: ["September", "October", "November"], lookup_id: 15)
+il = Harvest.create!(state: ia, produce: corn, months: ["August", "September", "October", "November"], lookup_id: 13)
+ne = Harvest.create!(state: ne, produce: corn, months: ["September", "October", "November"], lookup_id: 27)
+mn = Harvest.create!(state: mn, produce: corn, months: ["July", "August", "September"], lookup_id: 23)
+ind = Harvest.create!(state: ind, produce: corn, months: ["July", "August", "September"], lookup_id: 14)	
+ks = Harvest.create!(state: ks, produce: corn, months: ["September", "October"], lookup_id: 16)
+sd = Harvest.create!(state: sd, produce: corn, months: ["August", "September"], lookup_id: 41)	
+mo = Harvest.create!(state: mo, produce: corn, months: ["June", "July", "August", "September", "October"], lookup_id: 25)	
+nd = Harvest.create!(state: nd, produce: corn, months: ["August", "September"], lookup_id: 34)	
+wi = Harvest.create!(state: wi, produce: corn, months: ["July", "August", "September"], lookup_id: 49)		
+oh = Harvest.create!(state: oh, produce: corn, months: ["July", "August", "September"], lookup_id: 35)
+
+## eggplant harvests
+nj = Harvest.create!(state: nj, produce: eggplant, months: ["July", "August", "September"], lookup_id: 30)
+ny = Harvest.create!(state: nj, produce: eggplant, months: ["August", "September", "October"], lookup_id: 32)
+nh = Harvest.create!(state: nh, produce: eggplant, months: ["August", "September", "October"], lookup_id: 29)
+vt = Harvest.create!(state: vt, produce: eggplant, months: ["August", "September", "October"], lookup_id: 29)
+pa = Harvest.create!(state: pa, produce: eggplant, months: ["July", "August", "September"], lookup_id: 29)
+fl = Harvest.create!(state: pa, produce: eggplant, months: ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"], lookup_id: 29)
+
+## radish harvests
+Wisconsin
+California
+Florida
+>>>>>>> 152488ea87a86d52ec2fd55e8df18e084275f73a
