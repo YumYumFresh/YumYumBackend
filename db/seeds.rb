@@ -257,6 +257,14 @@ ar_spinach = Harvest.create!(state: ar, produce: spinach, months: ["January", "F
 nj_spinach = Harvest.create!(state: nj, produce: spinach, months: ["April", "May", "June"], lookup_id: 30)
 tx_spinach = Harvest.create!(state: tx, produce: spinach, months: ["January", "February", "March", "April", "September", "October", "November", "December"], lookup_id: 43)
 
+#basil
+ar_basil = Harvest.create!(state: ar, produce: basil, months: ["January", "February", "March", "April", "May", "June", "July", "August" "September", "October", "November", "December"], 3)
+ca_basil = Harvest.create!(state: ca, produce: basil, months: ["January", "February", "March", "April", "May", "June", "July", "August" "September", "October", "November", "December"], 5)
+fl_basil = Harvest.create!(state: fl, produce: basil, months: ["January", "February", "March", "April", "May", "June", "July", "August" "September", "October", "November", "December"], 9)
+nm_basil = Harvest.create!(state: nm, produce: basil, months: ["January", "February", "March", "April", "May", "June", "July", "August" "September", "October", "November", "December"], 31)
+nc_basil = Harvest.create!(state: nc, produce: basil, months: ["January", "February", "March", "April", "May", "June", "July", "August" "September", "October", "November", "December"], 33)
+
+
 ## corn harvests
 ia_corn = Harvest.create!(state: ia, produce: corn, months: ["September", "October", "November"], lookup_id: 15)
 il_corn = Harvest.create!(state: il, produce: corn, months: ["August", "September", "October", "November"], lookup_id: 13)
