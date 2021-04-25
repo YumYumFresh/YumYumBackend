@@ -273,6 +273,3 @@ pa_eggplant = Harvest.create!(state: pa, produce: eggplant, months: ["July", "Au
 fl_eggplant = Harvest.create!(state: fl, produce: eggplant, months: ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"], lookup_id: 9)
 
 ## radish harvests
-Wisconsin
-California
-Florida
