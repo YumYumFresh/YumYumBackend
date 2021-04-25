@@ -252,10 +252,10 @@ ct_morel = Harvest.create!(state: ct, produce: morels, months: ["March", "April"
 me_morel = Harvest.create!(state: me, produce: morels, months: ["March", "April", "May"], lookup_id: 19)
 
 #spinach
-ca_spinach = Harvest.create!(state: ca, produce: spinach, months: ["February", "March", "April"], lookup_id: ca.lookup_id)
-ar_spinach = Harvest.create!(state: ar, produce: spinach, months: ["January", "February", "March", "April", "December"], lookup_id: ar.lookup_id)
-nj_spinach = Harvest.create!(state: nj, produce: spinach, months: ["April", "May", "June"], lookup_id: nj.lookup_id)
-tx_spinach = Harvest.create!(state: tx, produce: spinach, months: ["January", "February", "March", "April", "September", "October", "November", "December"], lookup_id: tx.lookup_id)
+ca_spinach = Harvest.create!(state: ca, produce: spinach, months: ["February", "March", "April"], lookup_id: 5)
+ar_spinach = Harvest.create!(state: ar, produce: spinach, months: ["January", "February", "March", "April", "December"], lookup_id: 3)
+nj_spinach = Harvest.create!(state: nj, produce: spinach, months: ["April", "May", "June"], lookup_id: 30)
+tx_spinach = Harvest.create!(state: tx, produce: spinach, months: ["January", "February", "March", "April", "September", "October", "November", "December"], lookup_id: 43)
 
 ## corn harvests
 ia_corn = Harvest.create!(state: ia, produce: corn, months: ["September", "October", "November"], lookup_id: 15)
