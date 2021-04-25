@@ -252,25 +252,25 @@ ct_morel = Harvest.create!(state: ct, produce: morels, months: ["March", "April"
 me_morel = Harvest.create!(state: me, produce: morels, months: ["March", "April", "May"], lookup_id: 19)
 
 ## corn harvests
-ia = Harvest.create!(state: ia, produce: corn, months: ["September", "October", "November"], lookup_id: 15)
-il = Harvest.create!(state: ia, produce: corn, months: ["August", "September", "October", "November"], lookup_id: 13)
-ne = Harvest.create!(state: ne, produce: corn, months: ["September", "October", "November"], lookup_id: 27)
-mn = Harvest.create!(state: mn, produce: corn, months: ["July", "August", "September"], lookup_id: 23)
-ind = Harvest.create!(state: ind, produce: corn, months: ["July", "August", "September"], lookup_id: 14)	
-ks = Harvest.create!(state: ks, produce: corn, months: ["September", "October"], lookup_id: 16)
-sd = Harvest.create!(state: sd, produce: corn, months: ["August", "September"], lookup_id: 41)	
-mo = Harvest.create!(state: mo, produce: corn, months: ["June", "July", "August", "September", "October"], lookup_id: 25)	
-nd = Harvest.create!(state: nd, produce: corn, months: ["August", "September"], lookup_id: 34)	
-wi = Harvest.create!(state: wi, produce: corn, months: ["July", "August", "September"], lookup_id: 49)		
-oh = Harvest.create!(state: oh, produce: corn, months: ["July", "August", "September"], lookup_id: 35)
+ia_corn = Harvest.create!(state: ia, produce: corn, months: ["September", "October", "November"], lookup_id: 15)
+il_corn = Harvest.create!(state: il, produce: corn, months: ["August", "September", "October", "November"], lookup_id: 13)
+ne_corn = Harvest.create!(state: ne, produce: corn, months: ["September", "October", "November"], lookup_id: 27)
+mn_corn = Harvest.create!(state: mn, produce: corn, months: ["July", "August", "September"], lookup_id: 23)
+ind_corn = Harvest.create!(state: ind, produce: corn, months: ["July", "August", "September"], lookup_id: 14)	
+ks_corn = Harvest.create!(state: ks, produce: corn, months: ["September", "October"], lookup_id: 16)
+sd_corn = Harvest.create!(state: sd, produce: corn, months: ["August", "September"], lookup_id: 41)	
+mo_corn = Harvest.create!(state: mo, produce: corn, months: ["June", "July", "August", "September", "October"], lookup_id: 25)	
+nd_corn = Harvest.create!(state: nd, produce: corn, months: ["August", "September"], lookup_id: 34)	
+wi_corn = Harvest.create!(state: wi, produce: corn, months: ["July", "August", "September"], lookup_id: 49)		
+oh_corn = Harvest.create!(state: oh, produce: corn, months: ["July", "August", "September"], lookup_id: 35)
 
 ## eggplant harvests
-nj = Harvest.create!(state: nj, produce: eggplant, months: ["July", "August", "September"], lookup_id: 30)
-ny = Harvest.create!(state: nj, produce: eggplant, months: ["August", "September", "October"], lookup_id: 32)
-nh = Harvest.create!(state: nh, produce: eggplant, months: ["August", "September", "October"], lookup_id: 29)
-vt = Harvest.create!(state: vt, produce: eggplant, months: ["August", "September", "October"], lookup_id: 29)
-pa = Harvest.create!(state: pa, produce: eggplant, months: ["July", "August", "September"], lookup_id: 29)
-fl = Harvest.create!(state: pa, produce: eggplant, months: ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"], lookup_id: 29)
+nj_eggplant = Harvest.create!(state: nj, produce: eggplant, months: ["July", "August", "September"], lookup_id: 30)
+ny_eggplant = Harvest.create!(state: ny, produce: eggplant, months: ["August", "September", "October"], lookup_id: 32)
+nh_eggplant = Harvest.create!(state: nh, produce: eggplant, months: ["August", "September", "October"], lookup_id: 29)
+vt_eggplant = Harvest.create!(state: vt, produce: eggplant, months: ["August", "September", "October"], lookup_id: 45)
+pa_eggplant = Harvest.create!(state: pa, produce: eggplant, months: ["July", "August", "September"], lookup_id: 38)
+fl_eggplant = Harvest.create!(state: fl, produce: eggplant, months: ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"], lookup_id: 9)
 
 ## radish harvests
 Wisconsin
