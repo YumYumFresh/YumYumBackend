@@ -251,37 +251,9 @@ ri_morel = Harvest.create!(state: ri, produce: morels, months: ["March", "April"
 ct_morel = Harvest.create!(state: ct, produce: morels, months: ["March", "April", "May"], lookup_id: 7)
 me_morel = Harvest.create!(state: me, produce: morels, months: ["March", "April", "May"], lookup_id: 19)
 
-<<<<<<< HEAD
 #spinach
 ca_spinach = Harvest.create!(state: ca, produce: spinach, months: ["February", "March", "April"], lookup_id: ca.lookup_id)
 ar_spinach = Harvest.create!(state: ar, produce: spinach, months: ["January", "February", "March", "April", "December"], lookup_id: ar.lookup_id)
 nj_spinach = Harvest.create!(state: nj, produce: spinach, months: ["April", "May", "June"], lookup_id: nj.lookup_id)
 tx_spinach = Harvest.create!(state: tx, produce: spinach, months: ["January", "February", "March", "April", "September", "October", "November", "December"], lookup_id: tx.lookup_id)
 
-=======
-## corn harvests
-ia_corn = Harvest.create!(state: ia, produce: corn, months: ["September", "October", "November"], lookup_id: 15)
-il_corn = Harvest.create!(state: il, produce: corn, months: ["August", "September", "October", "November"], lookup_id: 13)
-ne_corn = Harvest.create!(state: ne, produce: corn, months: ["September", "October", "November"], lookup_id: 27)
-mn_corn = Harvest.create!(state: mn, produce: corn, months: ["July", "August", "September"], lookup_id: 23)
-ind_corn = Harvest.create!(state: ind, produce: corn, months: ["July", "August", "September"], lookup_id: 14)	
-ks_corn = Harvest.create!(state: ks, produce: corn, months: ["September", "October"], lookup_id: 16)
-sd_corn = Harvest.create!(state: sd, produce: corn, months: ["August", "September"], lookup_id: 41)	
-mo_corn = Harvest.create!(state: mo, produce: corn, months: ["June", "July", "August", "September", "October"], lookup_id: 25)	
-nd_corn = Harvest.create!(state: nd, produce: corn, months: ["August", "September"], lookup_id: 34)	
-wi_corn = Harvest.create!(state: wi, produce: corn, months: ["July", "August", "September"], lookup_id: 49)		
-oh_corn = Harvest.create!(state: oh, produce: corn, months: ["July", "August", "September"], lookup_id: 35)
-
-## eggplant harvests
-nj_eggplant = Harvest.create!(state: nj, produce: eggplant, months: ["July", "August", "September"], lookup_id: 30)
-ny_eggplant = Harvest.create!(state: ny, produce: eggplant, months: ["August", "September", "October"], lookup_id: 32)
-nh_eggplant = Harvest.create!(state: nh, produce: eggplant, months: ["August", "September", "October"], lookup_id: 29)
-vt_eggplant = Harvest.create!(state: vt, produce: eggplant, months: ["August", "September", "October"], lookup_id: 45)
-pa_eggplant = Harvest.create!(state: pa, produce: eggplant, months: ["July", "August", "September"], lookup_id: 38)
-fl_eggplant = Harvest.create!(state: fl, produce: eggplant, months: ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"], lookup_id: 9)
-
-## radish harvests
-Wisconsin
-California
-Florida
->>>>>>> 152488ea87a86d52ec2fd55e8df18e084275f73a
