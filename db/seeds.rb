@@ -76,7 +76,7 @@ blueberry = Produce.create!(name: "Blueberry", description: "When you buy fresh 
 spinach = Produce.create!(name: "Spinach", description: "Look for fresh spinach leaves that have a dark green color, crisp texture and fresh aroma. Avoid bunches or bags with wilted, yellow-spotted or slimy leaves and bunches with a sour or musty odor. Spinach stems should be fairly thin. Thick, coarse stems indicate overgrown leaves that will be tough and bitter tasting.", image: "https://images.unsplash.com/photo-1565489348099-73ff648c76ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
 tomato = Produce.create!(name: "Tomato", description: "Avoid tomatoes with blemishes or dark spots. The tomato should have a good weight for its size, feeling heavy. The tomato should also be firm, yet soft enough to give into any real pressure. Finally the tomato should be very aromatic when you smell it near where the stem was attached.", image: "https://images.unsplash.com/photo-1536500576323-b9a2af3a6c61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
 strawberry = Produce.create!(name: "Strawberry", description: "Look for bright red berries. Strawberries don't continue to ripen after they are picked, so what you see is what you get. Look for fresh green leaves.  Look for plump berries. Size doesn't matter.", image: "https://images.unsplash.com/photo-1543528176-61b239494933?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80")
-basil = Produce.create!(name: "Basil", description: "Look for bright red berries. Strawberries don't continue to ripen after they are picked, so what you see is what you get. Look for fresh green leaves.  Look for plump berries. Size doesn't matter.", image: "https://images.unsplash.com/photo-1543528176-61b239494933?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80")
+basil = Produce.create!(name: "Basil", description: "Look for fresh, vibrant green leaves with no dark spots or signs of decay. Fresh basil leaves should be layered in damp paper towels inside a plastic bag and refrigerated up to 4 days. For basil with stalks attached, place in a glass of water and cover with a plastic bag secured to the glass.", image: "https://images.unsplash.com/photo-1527964105263-1ac6265a569f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")
 
 
 ramps = Produce.create!(name: "Ramps", description: "Ramps lie dormant from late October to late March. Just as the snow begins to melt, the plant's first few leaves emerge, and by May its leaves have fully formed and fanned out, at which point the plant is usually harvested.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG98fAXh08vWrd28ox2uLhrkzqzgYl4kuLH9zxWL5Q64B5uCyO0HlbgXacX-KsgW4AtJI&usqp=CAU")
@@ -247,3 +247,10 @@ vt_morel = Harvest.create!(state: vt, produce: morels, months: ["March", "April"
 ri_morel = Harvest.create!(state: ri, produce: morels, months: ["March", "April", "May"], lookup_id: 39)
 ct_morel = Harvest.create!(state: ct, produce: morels, months: ["March", "April", "May"], lookup_id: 7)
 me_morel = Harvest.create!(state: me, produce: morels, months: ["March", "April", "May"], lookup_id: 19)
+
+#spinach
+ca_spinach = Harvest.create!(state: ca, produce: spinach, months: ["February", "March", "April"], lookup_id: ca.lookup_id)
+ar_spinach = Harvest.create!(state: ar, produce: spinach, months: ["January", "February", "March", "April", "December"], lookup_id: ar.lookup_id)
+nj_spinach = Harvest.create!(state: nj, produce: spinach, months: ["April", "May", "June"], lookup_id: nj.lookup_id)
+tx_spinach = Harvest.create!(state: tx, produce: spinach, months: ["January", "February", "March", "April", "September", "October", "November", "December"], lookup_id: tx.lookup_id)
+
