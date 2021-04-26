@@ -279,3 +279,9 @@ pa_eggplant = Harvest.create!(state: pa, produce: eggplant, months: ["July", "Au
 fl_eggplant = Harvest.create!(state: fl, produce: eggplant, months: ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"], lookup_id: 9)
 
 ## radish harvests
+al_radish = Harvest.create!(state: al, produce: radish, months: ["April", "May", "October", "November"], lookup_id: 1)
+ak_radish = Harvest.create!(state: ak, produce: radish, months: ["July", "August"], lookup_id: 2)
+ak_radish = Harvest.create!(state: ak, produce: radish, months: ["July", "August"], lookup_id: 3)
+wi_radish = Harvest.create!(state: wi, produce: radish, months: ["April", "May", "June", "July", "September", "October"], lookup_id: 49)
+
+## radish harvests
