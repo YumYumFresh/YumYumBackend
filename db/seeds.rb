@@ -384,3 +384,8 @@ ak_radish = Harvest.create!(state: ak, produce: radish, months: ["July", "August
 wi_radish = Harvest.create!(state: wi, produce: radish, months: ["April", "May", "June", "July", "September", "October"], lookup_id: 49)
 
 ## radish harvests
+
+## Strawberry harvests
+ny_strawberries = Harvest.create!(state: ny, produce: strawberry, months: ["May", "June", "July"], lookup_id: 32)
+nj_strawberries = Harvest.create!(state: nj, produce: strawberry, months: ["May", "June"], lookup_id: 31)
+ca_strawberries = Harvest.create!(state: ca, produce: strawberry, months: ["January", "February", "March", "April", "May", "June", "July", "August"], lookup_id: 5)
