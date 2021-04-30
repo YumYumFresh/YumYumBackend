@@ -77,7 +77,8 @@ Which will produce a list of produce for said month in a specific state. You may
 `:state_lookup_id` is an associated lookup_id i.e "32"
 
 
-<div class="states" style="border:1.5pxsolid;width:100%;max-height:300px;overflow-y:scroll;" >
+
+<div class="states" style="border:1.5px solid; width: 100%;maxHeight:300px; overflowY: scroll;">
 
 <table style="width:100%;">
     <tr> 
@@ -240,6 +241,7 @@ Which will produce a list of produce for said month in a specific state. You may
 </table>
 
 </div>
+
 
 -------
 
