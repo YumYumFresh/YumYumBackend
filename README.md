@@ -74,10 +74,10 @@ Which will produce a list of produce for said month in a specific state. You may
 
 `:month` is titilized month i.e "October"
 
-`:state_lookup_id` is an associated lookup_id i.e 32
+`:state_lookup_id` is an associated lookup_id i.e "32"
 
 
-<div class="states" style="border: 1.5px solid; width: 100%; max-height: 300px; overflow-y: scroll !important;" >
+<div class="states" style="border: 1.5px solid; width: 100%; max-height: 300px; overflow-y: scroll;" >
 
 <table style="width: 100%;">
     <tr> 
