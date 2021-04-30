@@ -9,3 +9,17 @@ Instructions to install Ruby:
 [Mac](https://stackify.com/install-ruby-on-your-mac-everything-you-need-to-get-going/)
 [Windows](https://phoenixnap.com/kb/install-ruby-on-windows-10)
 
+## To Run
+**Setup**
+```bash
+* git clone git@github.com:YumYumFresh/YumYumBackend.git
+* cd YumYumBackend
+```
+
+**To start the Client:**
+* bundle install or yarn
+
+The client is running on http://localhost:3000/
+
+**To start the Server:**
+* rails s
