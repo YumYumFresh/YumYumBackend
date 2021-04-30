@@ -79,22 +79,19 @@ Which will produce a list of produce for said month in a specific state. You may
 Below we have a table of state names and associated lookup_id's
 
 
-<svg fill="none" viewBox="0 0 0 0" width="850" height="300" xmlns="http://www.w3.org/2000/svg">
-
-<foreignObject width="100%" height="100%">
-
 <style>
-.states {    
-    border: 1.5px solid; 
-    width: 95%;
-    max-height: 300px; 
-    overflow-y: scroll !important;
-}
+    .states  {    
+        border: 1.5px solid; 
+        width: 95%;
+        max-height: 270px;
+        overflow-y: scroll !important;
+    }
 
-table {
-    width: 100%;
-}
+    table {
+        width: 100%;
+    }
 </style>
+
 
 <div class="states">
 
@@ -259,9 +256,6 @@ table {
 </table>
 
 </div>
-</foreignObject>
-
-</svg>
 
 -------
 
