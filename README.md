@@ -1,17 +1,3 @@
-<style>
-
-.states {    
-    border: 1.5px solid; 
-    width: 100%;
-    max-height: 300px; 
-    overflow-y: scroll !important;
-}
-
-table {
-    width: 100%;
-}
-</style>
-
 # Yum Yum Fresh API Documentation
 
 Yum Yum Fresh's goal is to bring seasonal and local produce information into the hands of the user. Due to the lack multiple disparate sources of information we had to aggregate, compile, new data sets to a relational and queryable API. 
@@ -20,7 +6,7 @@ This information is still incomplete and should only be used as faker data.
 
 # Installation of Environment
 Instructions to install Ruby:
-[Mac](https://stackify.com/install-ruby-on-your-mac-everything-you-need-to-get-going/)
+[Mac](https://stackify.com/install-ruby-on-your-mac-everything-you-need-to-get-going/) &
 [Windows](https://phoenixnap.com/kb/install-ruby-on-windows-10)
 
 # To Run
@@ -92,6 +78,23 @@ Which will produce a list of produce for said month in a specific state. You may
 
 Below we have a table of state names and associated lookup_id's
 
+
+<svg fill="none" viewBox="0 0 0 0" width="850" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<foreignObject width="100%" height="100%">
+
+<style>
+.states {    
+    border: 1.5px solid; 
+    width: 95%;
+    max-height: 300px; 
+    overflow-y: scroll !important;
+}
+
+table {
+    width: 100%;
+}
+</style>
 
 <div class="states">
 
@@ -256,7 +259,9 @@ Below we have a table of state names and associated lookup_id's
 </table>
 
 </div>
+</foreignObject>
 
+</svg>
 
 -------
 
