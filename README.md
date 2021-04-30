@@ -76,7 +76,7 @@ Which will produce a list of produce for said month in a specific state. You may
 
 `:state_lookup_id` is an associated lookup_id i.e 32
 
-<style style={display="hidden"} >
+<style style{ display="hidden"; }>
 
 .states {
     border: 1.5px solid;
