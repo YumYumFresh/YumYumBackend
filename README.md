@@ -1,3 +1,17 @@
+<style>
+
+.states {    
+    border: 1.5px solid; 
+    width: 100%;
+    max-height: 300px; 
+    overflow-y: scroll !important;
+}
+
+table {
+    width: 100%;
+}
+</style>
+
 # Yum Yum Fresh API Documentation
 
 Yum Yum Fresh's goal is to bring seasonal and local produce information into the hands of the user. Due to the lack multiple disparate sources of information we had to aggregate, compile, new data sets to a relational and queryable API. 
@@ -77,22 +91,6 @@ Which will produce a list of produce for said month in a specific state. You may
 `:state_lookup_id` is an associated lookup_id i.e "32"
 
 Below we have a table of state names and associated lookup_id's
-
-<html>
-
-<style>
-
-.states {    
-    border: 1.5px solid; 
-    width: 100%;
-    max-height: 300px; 
-    overflow-y: scroll !important;
-}
-
-table {
-    width: 100%;
-}
-</style>
 
 
 <div class="states">
@@ -258,7 +256,7 @@ table {
 </table>
 
 </div>
-</html>
+
 
 -------
 
