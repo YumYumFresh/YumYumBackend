@@ -76,11 +76,28 @@ Which will produce a list of produce for said month in a specific state. You may
 
 `:state_lookup_id` is an associated lookup_id i.e "32"
 
+Below we have a table of state names and associated lookup_id's
+
+<html>
+
+<style>
+
+.states {    
+    border: 1.5px solid; 
+    width: 100%;
+    max-height: 300px; 
+    overflow-y: scroll !important;
+}
+
+table {
+    width: 100%;
+}
+</style>
 
 
-<div class="states" style="border:1.5px solid; width: 100%;max-height:300px; overflow-y: scroll;">
+<div class="states">
 
-<table style="width:100%;">
+<table>
     <tr> 
        <th>State</th> 
        <th>lookup_id</th>
@@ -241,7 +258,7 @@ Which will produce a list of produce for said month in a specific state. You may
 </table>
 
 </div>
-
+</html>
 
 -------
 
