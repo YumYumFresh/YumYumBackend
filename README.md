@@ -81,7 +81,6 @@ Below we have a table of state names and associated lookup_id's
 
 <style>
     .states  {    
-        border: 1.5px solid; 
         width: 95%;
         max-height: 270px;
         overflow-y: scroll !important;
@@ -93,7 +92,7 @@ Below we have a table of state names and associated lookup_id's
 </style>
 
 
-<div class="states">
+<section class="states" style="border: 1.5px solid;">
 
 <table>
     <tr> 
@@ -255,7 +254,7 @@ Below we have a table of state names and associated lookup_id's
 
 </table>
 
-</div>
+</section>
 
 -------
 
