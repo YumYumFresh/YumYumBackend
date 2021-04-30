@@ -76,181 +76,164 @@ Which will produce a list of produce for said month in a specific state. You may
 
 `:state_lookup_id` is an associated lookup_id i.e 32
 
-<style style{ display="hidden"; }>
 
-.states {
-    border: 1.5px solid;
-    width: 100%;
-    max-height: 300px;
-    overflow-y: scroll !important;
-}
+<div class="states" style="border: 1.5px solid; width: 100%; max-height: 300px; overflow-y: scroll !important;" >
 
-table {
-    width: 100%;
-}
-
-.right{
-    border-left: 1px solid;
-}
-</style>
-
-
-<div class="states">
-<table>
+<table style="width: 100%;">
     <tr> 
        <th>State</th> 
        <th>lookup_id</th>
-       <th class="right">State</th> 
+       <th class="right" style="border-left: 1px solid;">State</th> 
        <th>lookup_id</th>
     </tr>
     <tr> 
        <td>Alabama</td> 
        <td>1</td>
-       <td class="right">Montana</td> 
+       <td class="right" style="border-left: 1px solid;">Montana</td> 
        <td>26</td>
     </tr> 
     <tr> 
        <td>Alaska</td> 
        <td>2</td>
-       <td class="right">Nebraska</td> 
+       <td class="right" style="border-left: 1px solid;">Nebraska</td> 
        <td>27</td>
     </tr> 
     <tr> 
        <td>Arizona</td> 
        <td>3</td>
-       <td class="right">Nevada</td> 
+       <td class="right" style="border-left: 1px solid;">Nevada</td> 
        <td>28</td>
     </tr> 
     <tr> 
        <td>Arkansas</td> 
        <td>4</td>
-       <td class="right">New Hampshire</td> 
+       <td class="right" style="border-left: 1px solid;">New Hampshire</td> 
        <td>29</td>
     </tr> 
     <tr> 
        <td>California</td> 
        <td>5</td>
-       <td class="right">New Jersey</td> 
+       <td class="right" style="border-left: 1px solid;">New Jersey</td> 
        <td>30</td>
     </tr>  
     <tr> 
        <td>Colorado</td> 
        <td>6</td>
-       <td class="right">New Mexico</td>
+       <td class="right" style="border-left: 1px solid;">New Mexico</td>
        <td>31</td>
     </tr> 
     <tr> 
        <td>Connecticut</td> 
        <td>7</td>
-       <td class="right">New York</td>
+       <td class="right" style="border-left: 1px solid;">New York</td>
        <td>32</td>
     </tr> 
     <tr> 
        <td>Delaware</td> 
        <td>8</td>
-       <td class="right">North Carolina</td>
+       <td class="right" style="border-left: 1px solid;">North Carolina</td>
        <td>33</td>
     </tr> 
     <tr> 
        <td>Florida</td> 
        <td>9</td>
-       <td class="right">North Dakota</td>
+       <td class="right" style="border-left: 1px solid;">North Dakota</td>
        <td>34</td>
     </tr> 
     <tr> 
        <td>Georgia</td> 
        <td>10</td>
-       <td class="right">Ohio</td>
+       <td class="right" style="border-left: 1px solid;">Ohio</td>
        <td>35</td>
     </tr>
     <tr> 
        <td>Hawaii</td> 
        <td>11</td>
-       <td class="right">Oklahoma</td>
+       <td class="right" style="border-left: 1px solid;">Oklahoma</td>
        <td>36</td>
     </tr>
     <tr> 
        <td>Idaho</td> 
        <td>12</td>
-       <td class="right">Oregon</td>
+       <td class="right" style="border-left: 1px solid;">Oregon</td>
        <td>37</td>
     </tr>
     <tr> 
        <td>Illinois</td> 
        <td>13</td>
-       <td class="right">Pennsylvania</td>
+       <td class="right" style="border-left: 1px solid;">Pennsylvania</td>
        <td>38</td>
     </tr>    
     <tr> 
        <td>Indiana</td> 
        <td>14</td>
-       <td class="right">Rhode Island</td>
+       <td class="right" style="border-left: 1px solid;">Rhode Island</td>
        <td>39</td>
     </tr>
     <tr> 
        <td>Iowa</td> 
        <td>15</td>
-       <td class="right">South Carolina</td>
+       <td class="right" style="border-left: 1px solid;">South Carolina</td>
        <td>40</td>
     </tr>
     <tr> 
        <td>Kansas</td> 
        <td>16</td>
-       <td class="right">South Dakota</td>
+       <td class="right" style="border-left: 1px solid;">South Dakota</td>
        <td>41</td>
     </tr>
     <tr> 
        <td>Kentucky</td> 
        <td>17</td>
-       <td class="right">Tennessee</td>
+       <td class="right" style="border-left: 1px solid;">Tennessee</td>
        <td>42</td>
     </tr>
     <tr> 
        <td>Louisiana</td> 
        <td>18</td>
-       <td class="right">Texas</td>
+       <td class="right" style="border-left: 1px solid;">Texas</td>
        <td>43</td>
     </tr>
     <tr> 
        <td>Maine</td> 
        <td>19</td>
-       <td class="right">Utah</td>
+       <td class="right" style="border-left: 1px solid;">Utah</td>
        <td>44</td>
     </tr>
     <tr> 
        <td>Maryland</td> 
        <td>20</td>
-       <td class="right">Vermont</td>
+       <td class="right" style="border-left: 1px solid;">Vermont</td>
        <td>45</td>
     </tr>
     <tr> 
        <td>Massachusetts</td> 
        <td>21</td>
-       <td class="right">Virginia</td>
+       <td class="right" style="border-left: 1px solid;">Virginia</td>
        <td>46</td>
     </tr>
     <tr> 
        <td>Michigan</td> 
        <td>22</td>
-       <td class="right">Washington</td>
+       <td class="right" style="border-left: 1px solid;">Washington</td>
        <td>47</td>
     </tr>
     <tr> 
        <td>Minnesota</td> 
        <td>23</td>
-       <td class="right">West Virginia</td>
+       <td class="right" style="border-left: 1px solid;">West Virginia</td>
        <td>48</td>
     </tr>
     <tr> 
        <td>Mississippi</td> 
        <td>24</td>
-       <td class="right">Wisconsin</td>
+       <td class="right" style="border-left: 1px solid;">Wisconsin</td>
        <td>49</td>
     </tr>
     <tr> 
        <td>Missouri</td> 
        <td>25</td>
-       <td class="right">Wyoming</td>
+       <td class="right" style="border-left: 1px solid;">Wyoming</td>
        <td>50</td>
     </tr>      
 
