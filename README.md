@@ -79,21 +79,9 @@ Which will produce a list of produce for said month in a specific state. You may
 Below we have a table of state names and associated lookup_id's
 
 
-<style>
-    .states  {    
-        width: 95%;
-        max-height: 270px;
-    }
+<div class="states" style="height:300px; border: 1.5px solid; width:95%;overflow-y: scroll !important;">
 
-    table {
-        width: 100%;
-    }
-</style>
-
-
-<section class="states" style="overflow-y: scroll !important;">
-
-<table>
+<table style="width: 100%;">
     <tr> 
        <th>State</th> 
        <th>lookup_id</th>
@@ -253,7 +241,7 @@ Below we have a table of state names and associated lookup_id's
 
 </table>
 
-</section>
+</div>
 
 -------
 
