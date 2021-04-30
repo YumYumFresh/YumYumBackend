@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :harvests
-  resources :produces
+  resources :harvests, only: [:index, :show]
+  resources :produces, only: [:index]
   resources :states, only: [:index]
   get '/states/:name', to: 'states#showName'
   get '/states/:name/produces', to: 'states#states_produce'
