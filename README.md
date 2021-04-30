@@ -78,7 +78,7 @@ Which will produce a list of produce for said month in a specific state. You may
 
 
 
-<div class="states" style="border:1.5px solid; width: 100%;maxHeight:300px; overflowY: scroll;">
+<div class="states" style="border:1.5px solid; width: 100%;max-height:300px; overflow-y: scroll;">
 
 <table style="width:100%;">
     <tr> 
