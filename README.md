@@ -1,6 +1,6 @@
 # Yum Yum Fresh API Documentation
 
-Yum Yum Fresh's goal is to bring seasonal and local produce information into the hands of the user. Due to the lack multiple disparate sources of information we had to aggregate, compile, new data sets to a relational and queryable API. 
+Yum Yum Fresh's goal is to bring seasonal and local produce information into the hands of the user. Due to the lack of connected sources of information, we had to aggregate and compile new data sets to be both a relational and queryable API. 
 
 This information is still incomplete and should only be used as faker data.
 
@@ -38,7 +38,7 @@ In Application Terminal:
 
 ## To build Database:
 
-In order to start running database properly on local machine you need to build the database with these ruby commands.
+In order to start running the database properly on a local machine, you will need to build the database with the following ruby commands below. 
 
 In Application Terminal:
 ```ruby
@@ -56,7 +56,7 @@ The client is running on `http://localhost:3000/`
 
 # Making Queries
 
-If you didn't want to install the database to your local machine, you can access information using the following GET request format
+If you choose not to install the database to your local machine, you can access information by using the following GET request format:
 
 ```html
 http://yumyumfresh-api.herokuapp.com/states/[:state_name]/produces?month=[:month]&lookup_id=[:state_lookup_id]
@@ -67,7 +67,7 @@ i.e.
 http://yumyumfresh-api.herokuapp.com/states/New York/produces?month=October&lookup_id=32
 ```
 
-Which will produce a list of produce for said month in a specific state. You may make GET requestions to `state#showName`, `produces#index`, `states#index`. However, these will not include specific information such as months that produce is in season.
+This will produce a list of produce for said month in a specific state. You may make GET requests to `state#showName`, `produces#index`, `states#index`. However, these will not include specific information such as the months that a produce is in season.
 
 ## Endpoint Parameters ## 
 `:state_name` is titleized state name i.e "New York"
@@ -76,7 +76,7 @@ Which will produce a list of produce for said month in a specific state. You may
 
 `:state_lookup_id` is an associated lookup_id i.e "32"
 
-Below we have a table of state names and associated lookup_id's
+Below is a table of state names and associated lookup_id's
 
 <body>
 <div class="states" style="height:300px; border: 1.5px solid; width:95%;overflow-y: scroll !important;">
@@ -248,7 +248,7 @@ Below we have a table of state names and associated lookup_id's
 
 
 ## Query Results
-The resulting JSON will look similar to
+The resulting JSON will look similar to:
 ```json
 [
   {
@@ -277,7 +277,7 @@ The resulting JSON will look similar to
 
 
 # Contributing
-If you'd like to contribute or have suggestions on how we can improve the API please contact us at yumyumfresh.info@gmail.com
+If you'd like to contribute or have suggestions on how we can improve the API, please contact us at yumyumfresh.info@gmail.com 
 
 
 ⒸYum Yum Fresh
